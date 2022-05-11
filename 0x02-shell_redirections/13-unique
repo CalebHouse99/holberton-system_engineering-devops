@@ -1,2 +1,2 @@
 #!/bin/bash
-sort --unique
+grep --only-matching 'Validating Classification.*' | sort --unique
