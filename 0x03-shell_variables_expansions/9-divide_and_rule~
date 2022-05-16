@@ -1,0 +1,6 @@
+#!/bin/bash
+export POWER=read number
+default=10
+export DIVIDE=read number
+default=10
+echo expr $POWER / $DIVIDE
