@@ -1,2 +1,2 @@
 #!/bin/bash
-export User_name=$USER | echo "hello ${User_name}"
+echo hello $USER
