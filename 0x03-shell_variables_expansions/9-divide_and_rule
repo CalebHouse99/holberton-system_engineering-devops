@@ -1,2 +1,2 @@
-#!/bin/bash
-Division=``echo $POWER / $DIVIDE`` | echo Division
+\#!/bin/bash
+``echo $POWER / $DIVIDE``
