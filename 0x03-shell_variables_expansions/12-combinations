@@ -1,2 +1,3 @@
 #!/bin/bash
-printf '%s\n' {a..z}""{a..z} | head -n 378; tail -n 279 | sort 
+printf '%s\n' {a..z}""{a..z} | head -n 378 | sort
+printf '%s\n' {a..z}""{a..z} | tail -n 297 | sort
