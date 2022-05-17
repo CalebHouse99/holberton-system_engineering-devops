@@ -2,5 +2,5 @@
 #List the names after the dash
 for f in *
 do
-    echo ${f#*-}
+    echo "${f#*-}"
 done
