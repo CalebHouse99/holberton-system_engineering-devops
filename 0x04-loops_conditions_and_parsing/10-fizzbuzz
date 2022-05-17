@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Fizz and buzz at different multiples
+for ((i=1; i<101; i++))
+do
+    if
+    echo $i
+done
