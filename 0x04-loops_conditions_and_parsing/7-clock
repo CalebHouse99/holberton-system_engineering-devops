@@ -16,7 +16,7 @@ do
 	echo Hour: $hour
     elif [ $i -eq 0 ]
     then
-	 echo Hour:$hour
+	 echo Hour: $hour
 	 ((i++))
     else
 	break
