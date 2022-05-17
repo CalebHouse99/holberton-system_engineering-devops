@@ -19,6 +19,6 @@ do
 	 echo Hour:$hour
 	 ((i++))
     else
-	:
+	break
     fi
 done
