@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #bad luck for various countries
 i=0
-while ((i <21))
+while ((i <20))
 do
     case $i in
 	'4')
