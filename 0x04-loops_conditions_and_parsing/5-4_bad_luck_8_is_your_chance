@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#Replace 4 and 8 with bad luck and good luck
 i=1
 while (( i < 11 ))
 do

@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#List Best School using while
 i=1
 while (( i < 11))
 do

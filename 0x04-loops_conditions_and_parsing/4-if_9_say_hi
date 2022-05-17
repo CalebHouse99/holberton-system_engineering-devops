@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#Put Hi after the 9th 
 i=1
 while (( i < 11))
 do

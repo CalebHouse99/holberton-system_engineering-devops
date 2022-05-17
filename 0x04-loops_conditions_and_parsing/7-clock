@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#Longform clock
+i=0
+hour=0
+while (( i < 61 ))
+do
+    if [ $i -gt 0 ] && [ $i -lt 60 ]
+    then
+	echo $i
+	((i++))
+    elif [ $i -eq 60 ] && [ $hour -lt 12 ]
+    then
+	i=0
+	((i++))
+	((hour++))
+	echo Hour: $hour
+    elif [ $i -eq 0 ]
+    then
+	 echo Hour:$hour
+	 ((i++))
+    else
+	:
+    fi
+done

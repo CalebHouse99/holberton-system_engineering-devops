@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#bad luck for various countries
 i=1
-while (($i <21))
+while ((i <21))
 do
     if [ $i -eq 5 ]
     then
