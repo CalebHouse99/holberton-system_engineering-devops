@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Infinite loop! I can do that.
+i=10
+while ((i > 5))
+do
+    if SIGTERM
+    echo To infinity and beyond
+    sleep 2
+    ((i++))
+done

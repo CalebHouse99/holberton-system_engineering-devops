@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#no kill!
+trap ./7-highlander SIGINT
