@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
 #Infinite loop! I can do that.
+trap echo "I am invincible!!!" SIGTERM
 i=10
 while ((i > 5))
 do
-    if SIGTERM
-    then
-       echo I am invincible!!!
-    fi
     echo To infinity and beyond
     sleep 2
     ((i++))
