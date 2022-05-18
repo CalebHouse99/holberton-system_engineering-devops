@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #Infinite loop! I can do that.
-trap echo "I am invincible!!!" SIGTERM
 i=10
 while ((i > 5))
 do
@@ -8,3 +7,4 @@ do
     sleep 2
     ((i++))
 done
+trap echo "I am invincible!!!" 15
