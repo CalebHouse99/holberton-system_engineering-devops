@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Kill it again
+kill "$(pgrep -f highlander)"
