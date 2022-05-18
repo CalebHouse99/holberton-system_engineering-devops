@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #Infinite loop with sigterm signal
-trap echo "I am invincible!!!" 15
 i=10
 while ((i > 5))
 do
@@ -8,3 +7,4 @@ do
     sleep 2
     ((i++))
 done
+trap 'echo "I am invincible!!!"' 15
